@@ -114,7 +114,7 @@ ${readMore}
 Warn: *${warn}*
 Banned: *No*
 `.trim()
-    conn.send2Button(m.chat, str, '© mikebot', 'PROFILE', '.profile', 'SHOP', '#shop', m)
+    conn.send2Button(m.chat, str, '© AhmadBOT', 'PROFILE', '.profile', 'SHOP', '#shop', m)
 }
 handler.help = ['inventory', 'inv']
 handler.tags = ['rpg']
