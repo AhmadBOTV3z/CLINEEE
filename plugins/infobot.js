@@ -41,7 +41,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│➸ *ANDA DI DATABASE KAMI*
 ║╰─────────
 ╰═════════════════`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©LynXzy💌', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©AhmadBOT', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['infobot']
 handler.tags = ['info']
