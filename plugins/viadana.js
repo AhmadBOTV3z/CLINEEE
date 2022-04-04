@@ -4,7 +4,7 @@ let info = `
 ╠═ Untuk Pembayaran Via Gopay
 ╠➥ *6281250521455*
 ║- Owner Bot:
-║- wa.me/6287892711054
+║- wa.me/6281250521455
 ╠═〘 AHMADBOT 〙 ═
 `.trim()
 
