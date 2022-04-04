@@ -23,10 +23,10 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ║│
 ║╭─❉〘 𝐆𝐑𝐎𝐔𝐏 𝐁𝐎𝐓 〙❉─
 ║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁¹
-║│➸ https://tinyurl.com/y7xymnkd
+║│➸ https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
 ║│
 ║│➸ 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗚𝗿𝗼𝘂𝗽 𝗕𝗼𝘁²
-║│➸ https://tinyurl.com/yc92fva7
+║│➸ https://chat.whatsapp.com/KG1QdHJ3qkB5QlFW0KeNNJ
 ║│
 ║│ ${readMore}
 ║╭─❉〘 𝐏𝐑𝐈𝐕𝐀𝐂𝐘 𝐁𝐎𝐓 〙❉─
