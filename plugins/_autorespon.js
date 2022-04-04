@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Shiro-Botz tidak aktif' : banned ? 'kamu dibanned' : 'lagi sad ga ush ngetag',
-                '©shirobotz',
+                isBanned ? 'AhmadBOT tidak aktif' : banned ? 'kamu dibanned' : 'lagi sad ga ush ngetag',
+                '©AhmadBOT',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -29,16 +29,18 @@ handler.all = async function (m, { isBlocked }) {
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Minggu* :      *Rm 5.00*
-╠➥ *2 Minggu* : *Rm 10.00*
-╠➥ *3 Minggu* :   *Rm 15.00*
-╠➥ *1 Bulan* :        *Rm 20.00*
+╠➥ *Via Pulsa* :      *Rp 10.000*
+╠➥ *Via Gopay* : *Rp 10.000*
+╠➥ *Via Dana* :   *Rp 10.000*
+╠➥ *PREMIUM* :        *Rp 5.000*
+╠ *SEMUA PERMANENT YAAAAAAA*
 ║
-╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
-╠➥ TOPUP/PIN
-║- 60149431385 (Digi)
-║- 60189830350 (Umobile)
-╠═〘 Hyzer 〙 ═`.trim(), '©shirobotz', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
+╠═〘 METODE PEMBAYARAN 〙 ═
+╠➥ GOPAY/DANA/PULSA
+╠ - 6281250521455 PULSA
+║- 6281250521455 (DANA)
+║- 6281250521455 (GOPAY)
+╠═〘 AHMAD BOT 〙 ═`.trim(), '©AhmadBOT', 'GOPAY', '#viagopay', 'DANA', '#viadana', m)
 }
 
     // salam
@@ -68,7 +70,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Bot by Hyzer. `).catch(_ => _)
+        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Bot by AhmadBOT. `).catch(_ => _)
         setting.status = new Date() * 1
     }
 
