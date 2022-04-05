@@ -237,6 +237,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *VIA PULSA* : *Rp.10.000*
 ┃⬡ *VIA DANA* : *Rp.10.000*
 ┃⬡ *VIA GOPAY* : *Rp.10.000*
+┃⬡ *VIA OVO* : *Rp.10.000*
 ┃⬡ *PREMIUM* : *Rp.5.000*
 ┗━━━━━━━━⬣`.trim(),
 
