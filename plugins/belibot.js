@@ -4,11 +4,12 @@ let handler = async (m, { conn }) => {
 ╠➥ *VIA PULSA* :      *Rp 10.000*
 ╠➥ *VIA DANA* :      *Rp 10.000*
 ╠➥ *VIA GOPAY* : *Rp 10.000*
+╠➥ *VIA OVO* : *Rp 10.000*
 ╠➥ *PREMIUM* :   *Rp 5.000*
 ╠   *SEMUA PERMANENT YAAAAAA*
 ║
 ╠═〘 METODE PEMBAYARAN 〙 ═
-╠➥ DANA/GOPAY/PULSA
+╠➥ DANA/GOPAY/PULSA/OVO
 ║
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Klil Button Di Bawah
