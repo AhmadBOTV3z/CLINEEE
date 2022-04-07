@@ -32,6 +32,7 @@ handler.all = async function (m, { isBlocked }) {
 ╠➥ *Via Pulsa* :      *Rp 10.000*
 ╠➥ *Via Gopay* : *Rp 10.000*
 ╠➥ *Via Dana* :   *Rp 10.000*
+╠➥ *VIA OVO* : *Rp 10.000*
 ╠➥ *PREMIUM* :        *Rp 5.000*
 ╠ *SEMUA PERMANENT YAAAAAAA*
 ║
@@ -40,6 +41,7 @@ handler.all = async function (m, { isBlocked }) {
 ╠ - 6281250521455 PULSA
 ║- 6281250521455 (DANA)
 ║- 6281250521455 (GOPAY)
+║- 6281250521455 OVO
 ╠═〘 AHMAD BOT 〙 ═`.trim(), '©AhmadBOT', 'GOPAY', '#viagopay', 'DANA', '#viadana', m)
 }
 
